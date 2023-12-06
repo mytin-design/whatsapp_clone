@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #eee;
+}
+.calls-wrapper {
+    width: 30%;
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    border-radius: 8px;
+    position: absolute;
+    top: 2%;
+    left: 35%;
+    height: 35rem;
+    overflow: hidden;
+    z-index:-1;
+    visibility: hidden;
+    
+}
+
+.calls_control-btn:hover .calls-wrapper {
+    visibility: visible;
+}
+
+
+
+
+
+
+.actions {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.edit_action {
+    text-decoration: none;
+    color: rgb(37, 102, 241);
+}
+
+.call_actions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    padding: 5px;
+}
+
+.all {
+    text-decoration: none;
+    background-color: rgb(37, 102, 241);
+    width: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+}
+
+
+
+.missed {
+    border: 1px solid #00f;
+    text-decoration: none;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-left: none;
+}
+
+.calls_title {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+
+.callBox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+
+}
+
+.callBox:hover {
+    background-color: rgba(14, 4, 4, 0.075);
+    cursor: default;
+}
+
+.callInfo_container {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    border-radius: 100%;
+    height: 50px;
+}
+
+.userCallType {
+    padding-left: 10px;
+}
+
+.call_missed {
+    color: red;
+}
+
+.caller_actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+.callTime {
+    padding-right: 5px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .calls-wrapper {
+        position: absolute;
+        left: 22%;
+        width: 55%;
+    }
+}

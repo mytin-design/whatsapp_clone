@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Status</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="status.css">
+    <style>
+    
+    </style>
+    </head>
+    <body>
+        <div class="status-wrapper">
+            <div class="privacy_text">
+                <p class="privacy-text">Privacy</p>
+            </div>
+
+            <div class="page_title">
+                <h1 class="page-title">Status</h1>
+            </div>
+
+            <div class="status_search">
+                <?xml  version="1.0" encoding="utf-8"?>
+<svg id="search_status_icon" width="18px" height="18px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L24 0L24 24L0 24L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Search-icon-2">
+    <path d="M0 0L24 0L24 24L0 24L0 0Z" id="Background" fill="#eee" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M10.08 1.44C5.57812 1.44 1.92 5.09813 1.92 9.6C1.92 14.1019 5.57812 17.76 10.08 17.76C11.8612 17.76 13.5075 17.1863 14.85 16.215L21.165 22.515L22.515 21.165L16.275 14.91C17.5012 13.4813 18.24 11.6269 18.24 9.6C18.24 5.09813 14.5819 1.44 10.08 1.44L10.08 1.44ZM10.08 2.39999C14.0625 2.39999 17.28 5.61749 17.28 9.59999C17.28 13.5825 14.0625 16.8 10.08 16.8C6.09751 16.8 2.88 13.5825 2.88 9.59999C2.88 5.61749 6.09751 2.39999 10.08 2.39999L10.08 2.39999Z" id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>
+                <input type="search" name="statusSearch" placeholder="Search"  id="search">
+            </div>
+            <hr color="#eee">
+
+            <div class="status_info">
+                <?xml version="1.0" encoding="utf-8"?>
+<svg id="cancel_btn" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L24 0L24 24L0 24L0 0Z" id="path_10" />
+    <clipPath id="mask_10">
+      <use xlink:href="#path_10" />
+    </clipPath>
+  </defs>
+  <g id="Delete-icon">
+    <path d="M0 0L24 0L24 24L0 24L0 0Z" id="Background" fill="#ddd" fill-rule="evenodd" stroke="" />
+    <g clip-path="url(#mask_1)">
+      <path d="M3.70501 3.01501L3.01501 3.70501L11.31 12L3.01501 20.295L3.70501 20.985L12 12.69L20.295 20.985L20.985 20.295L12.69 12L20.985 3.70501L20.295 3.01501L12 11.31L3.70501 3.01501Z" id="Shape" fill="#FFFFFF" stroke="none" />
+    </g>
+  </g>
+</svg>
+                <p class="status_info_title">WhatsApp Status</p>
+                <p class="status_info_text">You can now share with your contacts photos, videos, text and links that disappear after 24 hours.</p>
+                <a href="" class="privacy_settings">Privacy Settings</a>
+            </div>
+            <div class="empty_box"></div>
+            
+            <div class="myStatusBox">
+                <div class="myStatus">
+                    <?xml version="1.0" encoding="utf-8"?>
+<svg id="add_icon" width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <image width="96" height="96" xlink:href="data:image/png;base64,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" id="img_15" />
+    <pattern patternUnits="objectBoundingBox" y="-0%" height="100%" width="100%" id="pattern_15">
+      <use xlink:href="#img_15" transform="scale(0.25,0.25)" />
+    </pattern>
+  </defs>
+  <path d="M0.5 0.5L24.5 0.5L24.5 24.5L0.5 24.5L0.5 0.5Z" id="ShapePath" fill="url(#pattern_15)" fill-rule="evenodd" stroke="#808080" stroke-width="0" />
+</svg>
+                    <img src="./images/hero-desktop.jpg" width="50" alt="my status" class="status_upload">
+                    <div class="myStatusInfo">
+                        <p class="myStatusTitle">My Status</p>
+                        <p class="add_status_text">Add to my status</p>
+                    </div>
+                </div>
+
+                <div class="statusType">
+                    <div class="cameraUpload upBox">
+                        <?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <image width="96" height="96" xlink:href="data:image/png;base64,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" id="img_1" />
+  </defs>
+  <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="scale(0.25 0.25)" />
+</svg>
+                    </div>
+
+                    <div class="textUpload upBox">
+                        <?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <image width="96" height="96" xlink:href="data:image/png;base64,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" id="img_50" />
+  </defs>
+  <use xlink:href="#img_50" fill="#FFFFFF" stroke="none" transform="scale(0.25 0.25)" />
+</svg>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="recentUpdates">
+                <p class="recentUpdatesTitle">RECENT UPDATES</p>
+            </div>
+
+            <!--oTHER USERS STATUSES-->
+
+            <div class="otherUser">
+                <img src="./images/hero-desktop.jpg" width="50" alt="Uploaded status" class="otherUserStatus">
+
+                <div class="otherUserInfo">
+                    <p class="otherUserName">Name of User</p>
+                    <p class="timeUpdated">4m ago</p>
+                </div>
+            </div>
+
+            <hr color="#eee">
+            <div class="otherUser">
+                <img src="./images/hero-desktop.jpg" width="" alt="Uploaded status" class="otherUserStatus">
+
+                <div class="otherUserInfo">
+                    <p class="otherUserName">Name of User</p>
+                    <p class="timeUpdated">4m ago</p>
+                </div>
+            </div>
+            <hr color="#eee">
+            <div class="otherUser">
+                <img src="./images/hero-desktop.jpg" width="35" alt="Uploaded status" class="otherUserStatus">
+
+                <div class="otherUserInfo">
+                    <p class="otherUserName">Name of User</p>
+                    <p class="timeUpdated">4m ago</p>
+                </div>
+            </div>
+            <hr color="#eee">
+
+            <div class="otherUser">
+                <img src="./images/hero-desktop.jpg" width="35" alt="Uploaded status" class="otherUserStatus">
+
+                <div class="otherUserInfo">
+                    <p class="otherUserName">Name of User</p>
+                    <p class="timeUpdated">4m ago</p>
+                </div>
+            </div>
+            <hr color="#eee">
+
+            <div class="otherUser">
+                <img src="./images/hero-desktop.jpg" width="35" alt="Uploaded status" class="otherUserStatus">
+
+                <div class="otherUserInfo">
+                    <p class="otherUserName">Name of User</p>
+                    <p class="timeUpdated">4m ago</p>
+                </div>
+            </div>
+
+            <hr color="#eee">
+            <div class="otherUser">
+                <img src="./images/hero-desktop.jpg" width="35" alt="Uploaded status" class="otherUserStatus">
+
+                <div class="otherUserInfo">
+                    <p class="otherUserName">Name of User</p>
+                    <p class="timeUpdated">4m ago</p>
+                </div>
+            </div>
+
+            <hr color="#eee">
+            <div class="otherUser">
+                <img src="./images/hero-desktop.jpg" width="35" alt="Uploaded status" class="otherUserStatus">
+
+                <div class="otherUserInfo">
+                    <p class="otherUserName">Name of User</p>
+                    <p class="timeUpdated">4m ago</p>
+                </div>
+            </div>
+            <hr color="#eee">
+            <div class="otherUser">
+                <img src="./images/hero-desktop.jpg" width="35" alt="Uploaded status" class="otherUserStatus">
+
+                <div class="otherUserInfo">
+                    <p class="otherUserName">Name of User</p>
+                    <p class="timeUpdated">4m ago</p>
+                </div>
+            </div>
+            <hr color="#eee">
+            <div class="otherUser">
+                <img src="./images/hero-desktop.jpg" width="35" alt="Uploaded status" class="otherUserStatus">
+
+                <div class="otherUserInfo">
+                    <p class="otherUserName">Name of User</p>
+                    <p class="timeUpdated">4m ago</p>
+                </div>
+            </div>
+            
+            
+        </div>
+    </body>
+</html>
